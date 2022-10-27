@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 2</title>
+  </head>
+  <body>
+    <script>
+      //Functions prompt
+      prompt("Enter passcode");
+
+      function hat() {
+        console.log(2);
+      }
+      hat();
+
+      //Testing Number (Converts a value to a number) //The prompt returns a string so it has to be converted
+      /* let theNumber = Number(prompt("Pick a number"));
+            console.log(
+              `Your number is the squaare root of ` + theNumber * theNumber
+            );
+      */
+      //The function 'Number' converts a value to a number
+      //There is also a string and boolean function that grnats similar conversions
+
+      //A 'conditional execution' is where the program makes decisions based on the situation at hand
+      //A 'conditional execution' is created by the 'if' keyword
+
+      let theNumber2 = Number(prompt("Pick a number"));
+      if (Number.isNaN(theNumber2)) {
+        console.log(
+          `Your number is the squaare root of ` + theNumber2 * theNumber2
+        );
+      }
+
+      //switch
+      switch (prompt("What is the weather like")) {
+        case "rainy":
+          console.log("Get an umbrella!");
+          break;
+        case "sunny":
+          console.log("Remember your sunscreen!");
+          break;
+        case "cloudy":
+          console.log("Beware for sky-spiders!");
+          break;
+        default:
+          console.log("Unknown weather type!");
+          break;
+      }
+      // -> Displays prompt and logs the respective case
+    </script>
+  </body>
+</html>
