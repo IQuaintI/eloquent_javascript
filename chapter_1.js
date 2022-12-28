@@ -1,3 +1,5 @@
+//Chapter 1: Values, Types, and Operators//
+
 //The \n is how you make text begin on a new line
 //Text with a \ indicates that the following character has a special meaning  //Otherwise called 'escaping' the character
 console.log("This is the first line\nThis is the second");

@@ -1,3 +1,5 @@
+//Chapter 2: Program Structure//
+
 //A fragment of code that produces a value is called an expression //Which accounts for most things//
 //A statement is a 'full sentence' with a program being nothing more than a list of statements//
 //The changes that a statement can produce are called side effects//
